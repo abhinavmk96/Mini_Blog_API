@@ -41,25 +41,13 @@ The project implements user authentication using **OAuth2 + JWT**, allowing auth
 ## Project Structure
 
 ```text
-mini-blog-api/
+mini_blog/
 │
-├── mini_blog/
-│   ├── blog-frontend/
-│   │
-│   ├── routers/
-│   │   ├── auth.py
-│   │   └── tasks.py
-│   │
-│   ├── config.py
-│   ├── crud.py
-│   ├── database.py
-│   ├── dependencies.py
-│   ├── hashing.py
-│   ├── main.py
-│   ├── models.py
-│   ├── oauth2.py
-│   ├── schemas.py
-│   └── ...
+├── blog-frontend/           # Minimal frontend for testing the API
+│
+├── routers/
+│   ├── auth.py              # Authentication routes
+│   └── tasks.py             # Posts, comments and likes endpoints
 │
 ├── screenshots/
 │   ├── swagger-overview.png
@@ -68,12 +56,15 @@ mini-blog-api/
 │
 ├── .env.example
 ├── .gitignore
+├── config.py
+├── database.py
+├── main.py
+├── models.py
+├── README.md
 ├── requirements.txt
-└── README.md
+├── schemas.py
+└── security.py
 ```
-
----
-
 ## API Endpoints
 
 ### Authentication
