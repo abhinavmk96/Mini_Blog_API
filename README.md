@@ -47,7 +47,7 @@ mini_blog/
 │
 ├── routers/
 │   ├── auth.py              # Authentication routes
-│   └── tasks.py             # Posts, comments and likes endpoints
+│   └── posts.py             # Posts, comments and likes endpoints
 │
 ├── screenshots/
 │   ├── swagger-overview.png
